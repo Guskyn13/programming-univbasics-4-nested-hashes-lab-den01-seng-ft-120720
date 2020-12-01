@@ -20,13 +20,13 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-=======
+
 puts programmer_hash[:grace_hopper]
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 
->>>>>>> b5a4f88efeb179790a9e539fc5ed4ea38d7a19ec
+
 	programmer_hash =
  		{
       :grace_hopper => {
