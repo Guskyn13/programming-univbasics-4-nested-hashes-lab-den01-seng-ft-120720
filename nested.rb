@@ -16,9 +16,17 @@ def hopper
 programmer_hash[:grace_hopper]
 end
 
+<<<<<<< HEAD
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+=======
+puts programmer_hash[:grace_hopper]
+
+def alan_kay_is_known_for
+	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+
+>>>>>>> b5a4f88efeb179790a9e539fc5ed4ea38d7a19ec
 	programmer_hash =
  		{
       :grace_hopper => {
@@ -126,8 +134,8 @@ def adding_to_dennis
       },
       :dennis_ritchie => {
         :known_for => "Unix",
-        :languages => ["C", "Assembly"]
+        :languages => ["C"]
       }
     }
-
+programmer_hash[:dennis_ritchies_language]<<"Assembly"
 end
